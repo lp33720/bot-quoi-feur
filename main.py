@@ -34,11 +34,11 @@ async def on_message(message):
     # Prise en charge des majuscules et mininuscules
     # + les textes déformés comme "qUoiiiiiiiiiiiiiiiii ?"
     if message.content.lower().endswith('quoi'):
-        await message.channel.send("FEUR!!!!")
+        await message.channel.send("Feur")
     if message.content.lower().endswith('quoi ?'):
-        await message.channel.send("FEUR!!!!")
+        await message.channel.send("Feur")
     if message.content.lower().endswith('quoi?'):
-        await message.channel.send("FEUR!!!!")
+        await message.channel.send("Feur")
 
 
 client.run(TOKEN)
